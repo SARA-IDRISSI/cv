@@ -1,0 +1,195 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    align-items: center;
+    width: 100%;
+}
+
+.cv {
+    width: 60%;
+
+    display: flex;
+
+}
+
+.section-one {
+    background-color: rgb(223, 223, 223);
+    width: 40%;
+    height: 152vh;
+    padding: 20px 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left: 40px solid blue;
+}
+
+.info-pers h1,
+.info-pers .title {
+    color: blue;
+    padding-bottom: 10px;
+}
+
+
+
+img {
+    border-radius: 120px;
+    -webkit-border-radius: 120px;
+    -moz-border-radius: 120px;
+    -ms-border-radius: 120px;
+    -o-border-radius: 120px;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+h3 {
+    width: 280px;
+    border-bottom: 1px solid blue;
+    color: blue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    padding-top: 15px;
+    padding-right: 20px;
+    font-size: 17px;
+}
+
+.lang h3,
+.qualite h3,
+.hobbies h3 {
+    width: 280px;
+    border-bottom: 1px solid rgb(10, 10, 244);
+    padding-top: 20px;
+}
+
+.lang ul li,
+.qualite ul li {
+    list-style-type: square;
+    margin-left: 30px;
+}
+
+.section-two {
+    width: 55%;
+    padding: 20px 20px;
+    background-color: whitesmoke;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+
+
+li:hover a {
+    color: blue;
+}
+
+li:hover {
+    color: blue;
+}
+
+.profile h3,
+.education h3,
+.work h3 {
+    width: 470px;
+    border-bottom: 1px solid blue;
+}
+
+.section-two .profile p {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.education h3 {
+    padding-top: 30px;
+
+}
+
+.first-date {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+h4 {
+    width: 300px;
+    font-weight: 900;
+}
+
+.front,
+.ul,
+.back {
+    padding-left: 160px;
+
+}
+
+.second {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.front,
+.back {
+    padding-top: 20px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.ul li {
+    list-style-type: square;
+    margin-left: 30px;
+}
+
+.skills h3 {
+    width: 475px;
+    padding-top: 10px;
+}
+
+.skills ul li {
+    list-style-type: disc;
+}
+
+.skills ul {
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.info-pers:hover,
+.lang:hover,
+.qualite:hover,
+.hobbies:hover {
+    margin-left: -20px;
+    /* margin: 10px -16px 10px 10px; */
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    transform: scale(1.01) translateX(10px);
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+    -webkit-transform: scale(1.01) translateX(10px);
+    -moz-transform: scale(1.01) translateX(10px);
+    -ms-transform: scale(1.01) translateX(10px);
+    -o-transform: scale(1.01) translateX(10px);
+}
